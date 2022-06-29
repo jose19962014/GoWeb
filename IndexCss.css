@@ -1,0 +1,91 @@
+/*----paleta de colores tomada https://flatuicolors.com/palette/nl*/
+
+body{
+    background-color: #A3CB38;
+}
+
+header{
+    background-color: #C4E538;
+    height: 120px;
+    width: 100%;
+    /* overflow: hidden; */
+    display: flex;
+    justify-content: space-around;
+}
+
+#logo{
+    border: 1px solid black  ;
+    height: 100%;
+    width: 6%;
+    background: url(Images/goweb.PNG);
+}
+
+#divNav{
+    width:50%;
+}
+
+#divLoggin{
+    color: white;
+    margin-top: 1%;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+li{
+    display: inline;
+    padding: 2%;
+   
+   
+    
+}
+
+li a {
+    color: white;
+    font-size: 200%;
+}
+
+li:hover{
+    background-color: #A3CB38;
+    cursor: pointer;
+}
+
+/*--------------------------------------------------------*/
+
+.divContainer{
+ /* border: 2px solid black; */
+ display: block;
+ overflow-y: scroll;
+ scroll-behavior: smooth;
+}
+.divContainer::-webkit-scrollbar {
+    display: none;
+  }
+#divContainer{
+ overflow-y: scroll;
+ height: 85vh;;
+}
+.divSubContainer{
+   /* border: 2px solid red;*/
+   height: 85vh;
+    color: white;
+    text-align: center;
+    margin-top: 2%;
+  
+}
+
+
+/*------------------------------------------------------------------------*/
+#divRow1Costumer{
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    height: 60%;
+
+}
+.imageCostumer{
+    border: 2px solid red;
+    width:30%;
+}
